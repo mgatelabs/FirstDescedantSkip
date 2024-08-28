@@ -1,0 +1,4 @@
+python en_icons.py
+pyinstaller --onefile --icon=skip.ico update_date.py
+pyinstaller --onefile --icon=one_screen.ico internal_display.py
+pyinstaller --onefile --icon=two_screens.ico extend_display.py
