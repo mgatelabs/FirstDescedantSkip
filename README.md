@@ -47,6 +47,7 @@ allow you to change your window configuration, since TFD likes to popup in a win
 ### To build them
 
 pyinstaller --onefile extend_display.py
+
 pyinstaller --onefile internal_display.py
 
 ### Add them to steam
