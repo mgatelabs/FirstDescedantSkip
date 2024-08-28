@@ -42,14 +42,16 @@ Right click on the main in your steam list and rename it to something you would 
 ## Other Utilities
 
 Because TFD is sort of buggy over Steam Link I have added two extra programs that will
-allow you to change your window configuration, since TFD links to popup in a window that isn't visible.
+allow you to change your window configuration, since TFD likes to popup in a window that isn't visible.
 
-To build them
+### To build them
 
 pyinstaller --onefile extend_display.py
 pyinstaller --onefile internal_display.py
 
-Then add the exe to steam as show earlier.
+### Add them to steam
+
+Then add both exes to steam as show earlier.
 
 extend_display.exe will enable multi-monitor.
 internal_display.exe will force one screen.
