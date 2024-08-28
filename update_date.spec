@@ -2,7 +2,7 @@
 
 
 a = Analysis(
-    ['main.py'],
+    ['update_date.py'],
     pathex=[],
     binaries=[],
     datas=[],
@@ -22,7 +22,7 @@ exe = EXE(
     a.binaries,
     a.datas,
     [],
-    name='main',
+    name='update_date',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
