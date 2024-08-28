@@ -54,5 +54,5 @@ pyinstaller --onefile internal_display.py
 
 Then add both exes to steam as show earlier.
 
-extend_display.exe will enable multi-monitor.
-internal_display.exe will force one screen.
+- extend_display.exe will enable multi-monitor.
+- internal_display.exe will force one screen.
