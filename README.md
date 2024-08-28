@@ -21,7 +21,7 @@ You need to do three things
 From the main directory do the following
 
 1. pip install pyinstaller
-2. pyinstaller --onefile main.py
+2. pyinstaller --onefile update_date.py
 
 ### Create the config
 
@@ -35,6 +35,21 @@ The content of the JSON file should resemble this:
 
 From inside steam choose "Games" > "Add a non-steamm game to my library..."
 
-Choose the main.exe that was created in the dist folder.
+Choose the update_date.exe that was created in the dist folder.
 
 Right click on the main in your steam list and rename it to something you would remember like "The First Descendant Skip"
+
+## Other Utilities
+
+Because TFD is sort of buggy over Steam Link I have added two extra programs that will
+allow you to change your window configuration, since TFD links to popup in a window that isn't visible.
+
+To build them
+
+pyinstaller --onefile extend_display.py
+pyinstaller --onefile internal_display.py
+
+Then add the exe to steam as show earlier.
+
+extend_display.exe will enable multi-monitor.
+internal_display.exe will force one screen.

@@ -4,7 +4,7 @@ from datetime import datetime
 
 # Make a exe
 # pip install pyinstaller
-# pyinstaller --onefile main.py
+# pyinstaller --onefile update_date.py
 
 # config file config.json {"ini":"c:\\path\\to\\ini.file"}
 
